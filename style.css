@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(165, 42, 42, 0.2);
+    padding-bottom: 48px;
+}
+.main{
+    height: auto;
+    width: 100%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 42px;
+}
+.banner{
+    height: 40vh;
+    width: 100%;
+    background: url(./banner.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 2px 5px rgb(72, 72, 72);
+}
+nav{
+    position: sticky;
+    left: 15%;
+    top: 60px;
+    width: 70%;
+    height: 20%;
+}
+nav input{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #631212;
+    padding: 10px;
+    color: white;
+}
+.catalogue{
+    height: 28vh;
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+}
+.catalogue div{
+    width: 14%;
+    height: 100%;
+}
+.catalogue img{
+    width: 100%;
+    height: 80%;
+    border-radius: 50%;
+}
+.catalogue img:hover{
+    box-shadow: 0px 18px 18px black;
+    height: 82%;
+    width: 102%;
+}
+.Coffee{
+    background-color: rgb(165, 42, 42, 0.3);
+    height: auto;
+    width: 90%;
+    padding: 2%;
+    box-shadow: 0px 0px 8px brown;
+}
+.Coffee .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    color: #a52a2a;
+}
+.Coffee .info .desc{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
